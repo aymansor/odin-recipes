@@ -15,12 +15,12 @@ body {
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
-    width: min(100%, 400px);
+    width: min(100%, 600px);
 }
 
 .container {
     margin:auto;
-    width: min(100%, 400px);
+    width: min(100%, 600px);
     line-height: 25px;
 }
 
@@ -37,8 +37,8 @@ li::before {
     content: "\25b8";
     color: #77b1be;
     font-weight: bold;
-    margin-left: -25px;
-    margin-right: 10px;
+    margin-left: -5px;
+    margin-right: 5px;
 }
 
 a:link {
