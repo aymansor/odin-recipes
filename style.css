@@ -1,0 +1,60 @@
+body {
+    color: #3D405B;
+    background-color: #efefef;
+    font-family: "Courier New" ,Georgia ,Haettenschweiler;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.container {
+    margin:auto;
+    width: min(50%, 500px);
+}
+
+.recipes {
+    font-size: 20px;
+    padding-left: 1px;
+}
+
+ul {
+    list-style: none;
+}
+
+li::before {
+    content: "\25b8";
+    color: #77b1be;
+    font-weight: bold;
+    margin-left: -1em;
+}
+
+a:link {
+    color: #3D405B;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FF383F;
+}
+
+a:hover {
+    color: #77b1be;
+}
+
+a:active {
+    color: #adadad;
+}
+
+#credit {
+    text-align: center;
+}
