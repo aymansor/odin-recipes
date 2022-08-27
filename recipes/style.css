@@ -1,0 +1,81 @@
+body {
+    color: #3D405B;
+    background-color: #efefef;
+    font-family: "Courier New" ,Georgia ,Haettenschweiler;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #77b1be;
+}
+
+.center-img {
+    display: block;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: min(100%, 600px);
+}
+
+.container {
+    margin:auto;
+    width: min(100%, 600px);
+    line-height: 25px;
+}
+
+h2, h3{
+    letter-spacing: 2px;
+}
+
+ul {
+    list-style: none;
+}
+
+li::before {
+    margin-left: -25px;
+    margin-right: 10px;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #ff3a3f;
+    
+}
+
+ol {
+    list-style: none; 
+    counter-reset: li
+}
+
+ol li::before {
+    content: counter(li);
+    color: #77b1be;
+    display: inline-block;
+}
+
+li {
+    counter-increment: li
+}
+
+a:link {
+    color: #3D405B;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #3D405B;
+}
+
+a:hover {
+    color: #77b1be;
+}
+
+a:active {
+    color: #adadad;
+}
+
+#credit {
+    text-align: center;
+}
