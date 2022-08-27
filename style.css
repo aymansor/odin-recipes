@@ -12,14 +12,16 @@ body {
 
 .center-img {
     display: block;
+    border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: min(100%, 400px);
 }
 
 .container {
     margin:auto;
-    width: min(50%, 500px);
+    width: min(100%, 400px);
+    line-height: 25px;
 }
 
 .recipes {
@@ -35,7 +37,8 @@ li::before {
     content: "\25b8";
     color: #77b1be;
     font-weight: bold;
-    margin-left: -1em;
+    margin-left: -25px;
+    margin-right: 10px;
 }
 
 a:link {
